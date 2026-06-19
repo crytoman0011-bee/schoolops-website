@@ -34,18 +34,18 @@
 <section class="section">
   <div class="container grid-2">
     <div class="form-card">
-      <form action="https://formspree.io/f/mrevvgdd" method="POST" data-demo-form>
+      <form action="https://formspree.io/f/mrevvgdd" method="POST">
         <div class="form-grid">
-          <div class="field"><label>Name</label><input required placeholder="Your name"></div>
-          <div class="field"><label>School name</label><input required placeholder="School name"></div>
-          <div class="field"><label>Role</label><select><option>Owner / Principal</option><option>Accountant</option><option>Admin Officer</option><option>School Chain Operator</option></select></div>
-          <div class="field"><label>City</label><input placeholder="Lahore"></div>
-          <div class="field"><label>Phone number</label><input required placeholder="+92..."></div>
-          <div class="field"><label>Email</label><input type="email" placeholder="you@school.com"></div>
-          <div class="field"><label>Student count</label><select><option>Under 300</option><option>300 - 700</option><option>700 - 1500</option><option>1500+</option></select></div>
-          <div class="field"><label>Current system</label><select><option>ERP</option><option>Excel / CSV</option><option>Manual</option><option>Other</option></select></div>
-          <div class="field full"><label>Main fee recovery challenge</label><textarea placeholder="Parents delaying, broken promises, staff follow-up gaps..."></textarea></div>
-          <div class="field full"><button class="btn primary" type="submit">Request Demo</button><div class="success-message">Demo request captured in this static preview. Connect this form to your CRM or email service in production.</div></div>
+          <div class="field"><label>Name</label><input required placeholder="Your name" name="name"></div>
+          <div class="field"><label>School name</label><input required placeholder="School name" name="school_name"></div>
+          <div class="field"><label>Role</label><select name="role"><option>Owner / Principal</option><option>Accountant</option><option>Admin Officer</option><option>School Chain Operator</option></select></div>
+          <div class="field"><label>City</label><input placeholder="Lahore" name="city"></div>
+          <div class="field"><label>Phone number</label><input required placeholder="+92..." name="phone"></div>
+          <div class="field"><label>Email</label><input type="email" placeholder="you@school.com" name="email"></div>
+          <div class="field"><label>Student count</label><select name="student_count"><option>Under 300</option><option>300 - 700</option><option>700 - 1500</option><option>1500+</option></select></div>
+          <div class="field"><label>Current system</label><select name="current_system"><option>ERP</option><option>Excel / CSV</option><option>Manual</option><option>Other</option></select></div>
+          <div class="field full"><label>Main fee recovery challenge</label><textarea placeholder="Parents delaying, broken promises, staff follow-up gaps..." name="challenge"></textarea></div>
+          <div class="field full"><button class="btn primary" type="submit">Request Demo</button></div>
         </div>
       </form>
     </div>
